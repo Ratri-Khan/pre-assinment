@@ -1,1 +1,72 @@
-p{color:red}
+*{margin: 0;}
+.r-color{color:rgb(102, 102, 51);}
+
+.header{background-image: url('images/header_bg\ -\ Copy.png'), url('images/developer\ -\ Copy.png');
+    background-repeat: no-repeat;
+    background-position:bottom right , left;}
+
+/*nav part*/
+
+.nav-title{font-size:45px;
+    font-weight: 800;}
+nav{display:flex;
+    justify-content: space-between;
+    margin: 50px 200px;}
+nav ul{display:flex; 
+    align-items: center;}
+nav li{list-style:none;
+    margin-left: 50px;}
+.btn-desine{ 
+    color:#fff;
+    font-weight:700;
+    font-size: 20px;
+    border:0;
+    height: 64px;
+    border-radius:5px;
+    background-color: rgb(102, 102, 51);
+    padding: 18px 35px;}
+
+/*banner part*/
+
+.banner{margin: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;}
+.banner-des{color:#757575;
+    folot-size:18px;
+    margin:20px 0px;}
+
+/*about part*/
+main{max-width: 1140px;
+     margin: 0 auto;}
+
+.about{
+ margin-top: 130px;
+ background-color:#fff8f3;
+ border-radius: 10px;
+ padding: 130px 150px;
+}
+.section-title{
+      text-align: center;
+      margin-bottom: 30px;
+}
+.section-description{
+color:#757575;
+font-size:18px ;
+margin-bottom: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{font-size:20px;}
+.info-des{font-weight:700;
+font-size: 20px;}
