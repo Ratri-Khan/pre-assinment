@@ -70,3 +70,64 @@ margin-bottom: 30px;
 .info-title{font-size:20px;}
 .info-des{font-weight:700;
 font-size: 20px;}
+
+/* what i do */
+
+.what-i-do{margin-top: 130px;}
+
+.skills-container{display: flex;
+    gap:24px;}
+
+.skill-title{
+    font-weight:700;
+    font-size: 20px;
+    margin-top:30px;
+    margin-bottom: 20px;}
+
+.skill-description{color:#757575;}
+
+.skill{
+    background: #fff;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 30px;}
+
+/*resume section start8 */
+.resume-content{display: flex;
+    gap: 24px;}
+
+.resume-item{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.resume .title{ 
+    font-weight:700;
+    font-size: 25px;}
+
+.resume .sub-title{ 
+    font-weight: 600;
+    font-size: 20px;}
+
+.resume .description{}
+
+.Download-pro{text-align: center;
+margin-top: 30px;}
+
+/*contact style part start*/
+.contact{display: flex;
+    gap: 100px;
+    background-color:#fff8f3;
+    padding: 130px 200px;
+    margin-top: 50px;
+
+}
+.contact .section-title{
+    text-align:left;
+}
+.contact input{
+    margin-bottom:30px;
+    border:0;
+}
+input{height: 64px;
+width: 300px;}
